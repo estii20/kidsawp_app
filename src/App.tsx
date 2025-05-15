@@ -1,11 +1,8 @@
 import React from 'react';
+import Homepage from './pages/Homepage';
 
-const App: React.FC = () => {
-  return (
-    <div>
-      <h1>Hello, Kidswap!</h1>
-    </div>
-  );
+function App() {
+  return <Homepage />;
 }
 
 export default App;
